@@ -20,7 +20,7 @@ class Exp(commands.Cog):
             
             else:
                 user_name , balance , level , bank , work = self.DataBase.data(message.author.id)
-                channel = self.bot.get_channel(1099672058004250735)
+                channel = self.bot.get_channel(1128631521406885904)
 
 
                 if level == 2:

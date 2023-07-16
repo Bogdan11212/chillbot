@@ -7,8 +7,7 @@ import keep_alive
 bot = commands.Bot(command_prefix="!",
                    intents=disnake.Intents.all(),
                    help_command=None,
-                  activity=disnake.Game('вопросы frostou#0 ',
-                                         status=disnake.Status.online))
+                  activity=disnake.Game('https://lnk.bio/chillbot ',                                         status=disnake.Status.dnd))
 
 
 @bot.command()

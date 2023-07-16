@@ -9,7 +9,7 @@ class Ban(commands.Cog):
 
     @commands.slash_command(description="Кикает пользователей")
     @commands.has_permissions(kick_members=True , administrator=True)
-    async def ban(self , ctx , member: disnake.Member , * , reason="Нарушение прав"):
+    async def бан(self , ctx , member: disnake.Member , * , reason="Нарушение прав"):
         await ctx.send(f"Администратор {ctx.author.mention} забанил пользователя {member.mention} по причине : {reason}")
         await member.ban(reason=reason)
 

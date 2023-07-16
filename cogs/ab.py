@@ -7,7 +7,7 @@ class Ab(commands.Cog):
         self.bot = bot
 
     @commands.slash_command(description="Выполняет математическую опперацию")
-    async def ab(self , ctx , a: int , opperation , b: int):
+    async def вычислить(self , ctx , a: int , opperation , b: int):
         if opperation == "-":
             result = a - b
             await ctx.send(f"Результат: {result}")
