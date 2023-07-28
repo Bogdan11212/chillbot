@@ -17,7 +17,6 @@ class Data(commands.Cog):
                 title=f"__Информация о пользователе {username}__",
                 description=f"""
     Имя: {username}
-
     Работа: {work}
     Банк: {bank}🍬
     Ваш счет: {balance}🍬

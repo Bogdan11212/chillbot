@@ -12,7 +12,7 @@ class Info(commands.Cog):
         member_avatar = ctx.author.display_avatar.url
         embed = disnake.Embed(
             color=disnake.Color.green(),
-            title="Информация о сервере __Folzy | Team__",
+            title="Информация о сервере",
             description=f"**Название** - {ctx.guild.name}\n\n{config.data['guild']}\n\nУчастники сервера: {ctx.guild.member_count}"
         )
 
